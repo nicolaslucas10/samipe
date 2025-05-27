@@ -34,17 +34,58 @@ body, html {
 .navbar-toggler {
   border: none;
 }
+.navbar-collapse {
+  z-index: 1; /* <-- Alto, para sobrepor a logo */
+}
+
+@media (max-width: 767.98px) {
+  .logo-mobile {
+    position: relative; /* antes: absolute */
+    left: 0;
+    transform: none;
+    top: 0;
+    margin: 0 auto 10px auto; /* opcional: centraliza e dá espaçamento */
+    display: block;
+  }
+}
+
+.navbar-toggler-icon {
+  background-image: none; /* remove o ícone padrão */
+  width: 30px;
+  height: 3px;
+  background-color: #6F1133; /* <-- sua cor desejada */
+  display: block;
+  position: relative;
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+  content: "";
+  width: 30px;
+  height: 3px;
+  background-color: #6F1133; /* mesma cor */
+  position: absolute;
+  left: 0;
+}
+
+.navbar-toggler-icon::before {
+  top: -10px;
+}
+
+.navbar-toggler-icon::after {
+  top: 10px;
+}
 
 /* Logo no mobile: centralizada e acima do navbar */
 .logo-mobile {
   position: absolute;
-  left: 50%;
+  left: 35%;
   transform: translateX(-50%);
   top: -55px;
 }
 
 .logo-mobile img {
-    height: 90px; /* aumenta a logo */
+    height: 80px; /* aumenta a logo */
   max-height: none; /* impede que ela seja limitada pela altura da navbar */
   margin-top: 60px; /* opcional: centraliza visualmente se estiver desalinhada */
 }
@@ -64,7 +105,7 @@ body, html {
 @media (max-width: 767.98px) {
   .navbar-collapse {
     position: static !important;
-    background-color: #101010; /* fundo do menu aberto */
+    background-color: #dccdcd; /* fundo do menu aberto */
     width: 90%;
     padding: 15px 0;
     margin-top: 10px;
