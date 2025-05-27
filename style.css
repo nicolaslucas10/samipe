@@ -3,8 +3,10 @@
 body, html {
   margin: 0;
   padding: 0;
-  font-family: 'Epilogue', sans-serif;
   color: white;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #FFE2A8, #FCD0DA, #FF6B81, #d094a2);
+  color: #dc788f;
 }
 
 /* NAVBAR */
@@ -124,5 +126,54 @@ body, html {
 
   .navbar-nav .nav-link {
     padding: 10px 0;
+  }
+}
+
+
+
+
+/* HERO */
+.hero-section {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      padding: 50px 20px;
+       padding-top: 100px; /* aumenta o espaço superior */
+  padding-bottom: 50px;
+    }
+    .hero-title {
+      font-size: 3rem;
+      font-weight: bold;
+      color: #6E0E25;
+    }
+    .hero-subtitle {
+      font-size: 1.2rem;
+      margin: 20px 0;
+      color: #6E0E25;
+    }
+    .btn-custom {
+      background-color: #FF6B81;
+      color: white;
+      border: none;
+      margin: 10px;
+      padding: 12px 24px;
+      border-radius: 30px;
+      transition: 0.3s;
+    }
+    .btn-custom:hover {
+      background-color: #6E0E25;
+      color: #FFE2A8;
+    }
+    .hero-image {
+      max-width: 100%;
+      height: auto;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+
+    @media (max-width: 768px) {
+  .hero-section {
+    padding-top: 120px; /* ainda mais espaço no mobile */
+    text-align: center;
   }
 }
