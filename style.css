@@ -113,7 +113,7 @@ body, html {
 .logo-desktop img {
   height: 115px; /* aumenta a logo */
   max-height: none; /* impede que ela seja limitada pela altura da navbar */
-  margin-top: 1px; /* opcional: centraliza visualmente se estiver desalinhada */
+  margin-top: 1px; /* opcional:k centraliza visualmente se estiver desalinhada */
 }
 
 
