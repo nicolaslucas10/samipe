@@ -5,8 +5,7 @@ body, html {
   padding: 0;
   color: white;
   font-family: Arial, sans-serif;
-  background: linear-gradient(135deg, #FFE2A8, #FCD0DA, #FF6B81, #d094a2);
-  color: #dc788f;
+  background-color: rgb(255, 255, 255);
 }
 
 /* NAVBAR */
@@ -17,13 +16,12 @@ body, html {
   align-items: center;
   justify-content: space-between;
   padding: 0 20px;
-  border-bottom: 4px solid #6F1133;
   overflow: visible; /* permite que a logo “transborde” */
 }
 
 
 .navbar-nav .nav-link {
-  color: rgb(0, 0, 0);
+  color: rgba(0, 0, 0, 0.419);
   font-size: 1rem;
   transition: all 0.3s ease;
 }
@@ -39,6 +37,23 @@ body, html {
 .navbar-collapse {
   z-index: 1; /* <-- Alto, para sobrepor a logo */
 }
+
+.btn-agendar {
+  background-color: #6E0E25;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+  margin-top: 10px; /* Adiciona espaçamento superior */
+}
+
+
+.btn-agendar:hover {
+  background-color: #6e0e24b4; /* Um tom mais escuro no hover */
+}
+
 
 @media (max-width: 767.98px) {
   .logo-mobile {
@@ -137,32 +152,49 @@ body, html {
       min-height: 100vh;
       display: flex;
       align-items: center;
-      padding: 50px 20px;
-       padding-top: 100px; /* aumenta o espaço superior */
-  padding-bottom: 50px;
+      padding: 40px 20px;
+       padding-top: 10px; /* aumenta o espaço superior */
+  padding-bottom: 40px;
     }
     .hero-title {
-      font-size: 3rem;
+      font-size: 2.5rem;
       font-weight: bold;
       color: #6E0E25;
+      font-family: 'Poppins', sans-serif;
     }
     .hero-subtitle {
       font-size: 1.2rem;
       margin: 20px 0;
       color: #6E0E25;
+      font-family: 'Poppins', sans-serif;
     }
+    
+    #title2 {
+      font-size: 1.5rem;
+      text-align: center;
+      color:#FF6A78;
+    }
+
     .btn-custom {
-      background-color: #FF6B81;
-      color: white;
-      border: none;
-      margin: 10px;
-      padding: 12px 24px;
-      border-radius: 30px;
-      transition: 0.3s;
-    }
+  background-color: #6E0E25;
+  color: white;
+  border: none;
+  margin: 10px;
+  padding: 20px 24px;
+  border-radius: 30px;
+  transition: 0.3s;
+  width: 100%; /* Faz todos os botões terem a mesma largura */
+  max-width: 350px; /* Define um limite, se quiser */
+}
+
+.botaohero{
+   display: flex;
+  justify-content: center; /* centraliza horizontalmente */
+  align-items: center;     /* centraliza verticalmente */
+}
     .btn-custom:hover {
-      background-color: #6E0E25;
-      color: #FFE2A8;
+      background-color: #6e0e24c8;
+      color: #FF6A78;
     }
     .hero-image {
       max-width: 100%;
@@ -176,4 +208,24 @@ body, html {
     padding-top: 120px; /* ainda mais espaço no mobile */
     text-align: center;
   }
+}
+
+/* QUEM SOMOS */
+
+.text-bordeaux {
+  color: #6E0E25;
+  font-family: 'Poppins', sans-serif; 
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+    .hero-subtitle2 {
+      font-size: 1.2rem;
+      margin: 20px 0;
+      color: #FF6A78;
+      font-family: 'Poppins', sans-serif;
+    }
+    
+.rounded-4 {
+  border-radius: 20px;
 }
