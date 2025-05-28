@@ -17,6 +17,7 @@ body, html {
   justify-content: space-between;
   padding: 0 20px;
   overflow: visible; /* permite que a logo “transborde” */
+  border-bottom: 2px solid #6F1133;
 }
 
 
@@ -39,7 +40,7 @@ body, html {
 }
 
 .btn-agendar {
-  background-color: #6E0E25;
+  background-color: #6F1133;
   color: white;
   padding: 10px 20px;
   border-radius: 30px;
@@ -51,7 +52,7 @@ body, html {
 
 
 .btn-agendar:hover {
-  background-color: #6e0e24b4; /* Um tom mais escuro no hover */
+  background-color: #6F1133; /* Um tom mais escuro no hover */
 }
 
 
@@ -158,13 +159,13 @@ body, html {
     .hero-title {
       font-size: 2.5rem;
       font-weight: bold;
-      color: #6E0E25;
+      color: #6F1133;
       font-family: 'Poppins', sans-serif;
     }
     .hero-subtitle {
       font-size: 1.2rem;
       margin: 20px 0;
-      color: #6E0E25;
+      color: #6F1133;
       font-family: 'Poppins', sans-serif;
     }
     
@@ -175,7 +176,7 @@ body, html {
     }
 
     .btn-custom {
-  background-color: #6E0E25;
+  background-color: #6F1133;
   color: white;
   border: none;
   margin: 10px;
@@ -219,7 +220,7 @@ body, html {
 /* QUEM SOMOS */
 
 .text-bordeaux {
-  color: #6E0E25;
+  color: #6F1133;
   font-family: 'Poppins', sans-serif; 
   text-align: center;
   font-size: 2.5rem;
