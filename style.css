@@ -350,7 +350,7 @@ body, html {
     }
 
     .stat-card {
-      background: linear-gradient(135deg, #fff0f5, #ffe4e1);
+      background: #ff6a793c;
       border-radius: 1.5rem;
       padding: 30px 20px;
       text-align: center;
