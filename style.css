@@ -151,7 +151,7 @@ body, html {
 
 /* HERO */
 .hero-section {
-      min-height: 100vh;
+      min-height: 60vh;
       display: flex;
       align-items: center;
       padding: 40px 20px;
@@ -195,8 +195,8 @@ body, html {
   align-items: center;     /* centraliza verticalmente */
 }
     .btn-custom:hover {
-      background-color: #6e0e24df;
-      color: #FF6A78;
+ background-color: #5a0822;
+      transform: scale(1.05);
     }
     .hero-image {
       max-width: 100%;
@@ -355,7 +355,6 @@ body, html {
       border-radius: 1.5rem;
       padding: 30px 20px;
       text-align: center;
-      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
       transition: 0.3s ease;
       box-shadow: 0 10px 20px #6f113349;
     }
@@ -389,3 +388,44 @@ body, html {
       font-size: 0.95rem;
       color: #666;
     }
+
+
+     /* atuamos */
+     
+    #impacto .card {
+    background-color: #ff6a793c;
+    transition: transform 0.3s ease;
+  }
+
+  #impacto .card:hover {
+    transform: translateY(-5px);
+  }
+
+  #impacto img {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+  }
+
+  #impacto p {
+    font-family: 'Poppins', sans-serif;
+    color: #6e0e35;
+  }
+
+
+    /* como ser atendido */
+
+    .btn-custom {
+    background-color: #6e0e35;
+    border: none;
+    transition: all 0.3s ease;
+  }
+
+  .btn-custom:hover {
+    background-color: #580c2b;
+    transform: scale(1.05);
+  }
+
+  #apoio p, #apoio h2 {
+    font-family: 'Poppins', sans-serif;
+  }
