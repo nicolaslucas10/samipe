@@ -153,8 +153,7 @@ body, html {
       display: flex;
       align-items: center;
       padding: 40px 20px;
-       padding-top: 10px; /* aumenta o espaço superior */
-  padding-bottom: 40px;
+
     }
     .hero-title {
       font-size: 2.5rem;
@@ -180,6 +179,7 @@ body, html {
   color: white;
   border: none;
   margin: 10px;
+  margin-bottom: 10px;
   padding: 20px 24px;
   border-radius: 30px;
   transition: 0.3s;
@@ -193,7 +193,7 @@ body, html {
   align-items: center;     /* centraliza verticalmente */
 }
     .btn-custom:hover {
-      background-color: #6e0e24c8;
+      background-color: #6e0e24df;
       color: #FF6A78;
     }
     .hero-image {
@@ -203,12 +203,18 @@ body, html {
       box-shadow: 0 8px 20px rgba(0,0,0,0.1);
     }
 
-    @media (max-width: 768px) {
+@media (max-width: 768px) {
   .hero-section {
     padding-top: 120px; /* ainda mais espaço no mobile */
     text-align: center;
   }
+
+  .botaohero {
+    flex-direction: column; /* empilha os botões no mobile */
+    gap: 0px;               /* espaço entre eles */
+  }
 }
+
 
 /* QUEM SOMOS */
 
@@ -228,4 +234,10 @@ body, html {
     
 .rounded-4 {
   border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .imagemquem{
+    display: none;
+  }
 }
