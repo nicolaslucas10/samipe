@@ -169,7 +169,7 @@ body, html {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #ff6a7943; /* fundo branco com opacidade */
+  background-color: #6f1133c9; /* fundo branco com opacidade */
   z-index: 1;
 }
 
@@ -201,7 +201,7 @@ body, html {
 
 /* Botões */
 .btn-custom {
-  background-color: #6F1133;
+  background-color: #ff6a793c;
   color: white;
   border: none;
   margin: 10px;
@@ -213,7 +213,7 @@ body, html {
 }
 
 .btn-custom:hover {
-  background-color: #5a0822;
+  background-color: #ff6a793c;
   transform: scale(1.05);
 }
 
