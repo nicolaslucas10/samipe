@@ -413,27 +413,50 @@ body, html {
     }
 
 
-     /* atuamos */
-     
-    #impacto .card {
-    background-color: #ff6a793c;
-    transition: transform 0.3s ease;
-  }
+     /* MOSAICO AJUSTADO */
+.impacto-mosaico {
+  padding: 0;
+  margin: 0;
+}
 
-  #impacto .card:hover {
-    transform: translateY(-5px);
-  }
+.card-mosaico {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
 
-  #impacto img {
-    object-fit: cover;
-    height: 200px;
-    width: 100%;
-  }
+.card-mosaico:hover {
+  transform: scale(1.02);
+}
 
-  #impacto p {
-    font-family: 'Poppins', sans-serif;
-    color: #6F1133;
+.titulo-card {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  padding: 12px 20px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .titulo-card {
+    font-size: 0.9rem;
+    padding: 10px;
   }
+}
 
 
     /* como ser atendido */
