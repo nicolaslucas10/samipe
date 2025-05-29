@@ -236,6 +236,18 @@ body, html {
     flex-direction: column;
     gap: 10px;
   }
+ .hero-section {
+  position: relative;
+  background-image: url('imagens/479770z_1.avif'); /* Substitua pelo caminho correto */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 }
 
 
