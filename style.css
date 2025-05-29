@@ -53,6 +53,7 @@ body, html {
 
 .btn-agendar:hover {
   background-color: #6F1133; /* Um tom mais escuro no hover */
+  transform: scale(1.05);
 }
 
 
