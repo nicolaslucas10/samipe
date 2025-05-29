@@ -227,18 +227,15 @@ body, html {
 
 /* Responsivo */
 @media (max-width: 768px) {
-  .hero-section {
-    padding-top: 120px;
-    text-align: center;
-  }
-
   .botaohero {
     flex-direction: column;
     gap: 10px;
   }
  .hero-section {
+  padding-top: 120px;
+    text-align: center;
   position: relative;
-  background-image: url('imagens/Capturar.PNG'); /* Substitua pelo caminho correto */
+  background-image: url('imagens/Capturar44.PNG'); /* Substitua pelo caminho correto */
   background-size: cover;
   background-position: center;
   min-height: 100vh;
