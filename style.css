@@ -439,6 +439,7 @@ body, html {
   margin: 0;
 }
 
+
 .card-mosaico {
   width: 100%;
   aspect-ratio: 1 / 1;
@@ -515,3 +516,4 @@ body, html {
   margin-left: auto;
   margin-right: auto;
 }
+

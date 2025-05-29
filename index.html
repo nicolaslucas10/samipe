@@ -41,10 +41,11 @@
     <div class="collapse navbar-collapse justify-content-end w-100" id="navbarNav">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item"><a class="nav-link" href="index.html">INICIO</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">QUEM SOMOS</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">NOSSOS PROJETOS</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">UNIDADES</a></li>
-        <li class="mt-2" style="margin: 10px;"><a href="#contato" class="btn-agendar">CONTATO</a></li>
+        <li class="nav-item"><a class="nav-link" href="#quem-somos">QUEM SOMOS</a></li>
+        <li class="nav-item"><a class="nav-link" href="#nossos-projetos">NOSSOS PROJETOS</a></li>
+        <li class="nav-item"><a class="nav-link" href="#impacto">UNIDADES</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://www.blogbemvivermulher.org.br/" target="_blank"> BLOG</a></li>
+        <li class="mt-2" style="margin: 10px;"><a href="https://wa.me/5581983983990" target="_blank" rel="noopener noreferrer" class="btn-agendar">CONTATO</a></li>
       </ul>
     </div>
   </div>
@@ -81,7 +82,6 @@
     <i class="bi bi-people-fill" style="padding: 7px;"></i> Quero apoiar / ser parceiro
   </a>
 </div>
-
       </div>
     </div>
   </div>
@@ -115,7 +115,7 @@
 </section>
 
 
-<section class="dobra3-section container">
+<section class="dobra3-section container" id="nossos-projetos">
   <h2 class="dobra3-title">Nossos Projetos</h2>
 <br>
   <div class="project-grid">
@@ -180,18 +180,16 @@ Apesar da alta demanda, o acesso ao tratamento psicológico ainda é privilégio
 </section>
 
 
-  <section class="impacto-mosaico" id="impacto">
+<section class="impacto-mosaico" id="impacto">
   <div class="container-fluid">
     <div class="row g-0">
-      <!-- UNIDADE RECIFE COM CARROSSEL -->
+
+      <!-- UNIDADE RECIFE -->
       <div class="col-6 col-md-3">
         <div id="carouselRecife" class="carousel slide card-mosaico" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="card-mosaico" style="background-image: url('imagens/recife1.jpeg');"></div>
-            </div>
-            <div class="carousel-item">
-              <div class="card-mosaico" style="background-image: url('imagens/foto2_recife.jpg');"></div>
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselRecife" data-bs-slide="prev">
@@ -204,42 +202,79 @@ Apesar da alta demanda, o acesso ao tratamento psicológico ainda é privilégio
         </div>
       </div>
 
-      <!-- UNIDADE CARPINA COM CARROSSEL -->
+      <!-- UNIDADE CARPINA -->
       <div class="col-6 col-md-3">
-        <div id="carouselCarpina" class="carousel slide card-mosaico" data-bs-ride="carousel">
+        <div id="carouselCarpina1" class="carousel slide card-mosaico" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="card-mosaico" style="background-image: url('imagens/capina1.jpeg');"></div>
             </div>
-            <div class="carousel-item">
-              <div class="card-mosaico" style="background-image: url('imagens/foto2_carpina.jpg');"></div>
-            </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselCarpina" data-bs-slide="prev">
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselCarpina1" data-bs-slide="prev">
             <span class="carousel-control-prev-icon"></span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselCarpina" data-bs-slide="next">
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselCarpina1" data-bs-slide="next">
             <span class="carousel-control-next-icon"></span>
           </button>
           <div class="titulo-card">Unidade Carpina - Santo Antônio</div>
         </div>
       </div>
 
-      <!-- OUTROS CARDS IGUAIS AO ORIGINAL -->
+      <!-- ESPAÇOS COM ARTE -->
       <div class="col-6 col-md-3">
-        <div class="card-mosaico" style="background-image: url('imagens/espaçoscomarte.jpeg');">
+        <div id="carouselArte" class="carousel slide card-mosaico" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card-mosaico" style="background-image: url('imagens/espaçoscomarte.jpeg');"></div>
+            </div>
+            <div class="carousel-item">
+              <div class="card-mosaico" style="background-image: url('imagens/espaçocomarte2.jpeg');"></div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselArte" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselArte" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
           <div class="titulo-card">Espaços com arte e acolhimento</div>
         </div>
       </div>
 
+      <!-- O QUE JÁ FOI CONQUISTADO -->
       <div class="col-6 col-md-3">
-        <div class="card-mosaico" style="background-image: url('imagens/2560x1600-wine-solid-color-background.jpg.crdownload');">
-          <div class="titulo-card">Psicólogas e educadoras sociais</div>
+        <div id="carouselConquistas" class="carousel slide card-mosaico" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card-mosaico" style="background-image: url('imagens/oquejafoi1.jpeg');"></div>
+            </div>
+            <div class="carousel-item">
+              <div class="card-mosaico" style="background-image: url('imagens/oquejafoi2.jpeg');"></div>
+            </div>
+            <div class="carousel-item">
+              <div class="card-mosaico" style="background-image: url('imagens/oquejafoi2.jpeg');"></div>
+            </div>
+            <div class="carousel-item">
+              <div class="card-mosaico" style="background-image: url('imagens/oquejafoi3.jpeg');"></div>
+            </div>
+            <div class="carousel-item">
+              <div class="card-mosaico" style="background-image: url('imagens/oquejafo4.jpeg');"></div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselConquistas" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselConquistas" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+          <div class="titulo-card">O que já foi conquistado</div>
         </div>
       </div>
+
     </div>
   </div>
 </section>
+
 
 
 <!-- COMO SER ATENDIDO -->
@@ -343,10 +378,10 @@ Apesar da alta demanda, o acesso ao tratamento psicológico ainda é privilégio
       <div class="col-md-3">
         <strong class="d-block mb-2"><i class="bi bi-link-45deg me-2"></i>Links rápidos</strong>
         <ul class="list-unstyled small" style="color: black;">
-          <li><a href="#sobre" class="text-decoration-none" style="color: black;">Sobre</a></li>
-          <li><a href="#projetos" class=" text-decoration-none" style="color: black;">Projetos</a></li>
+          <li><a href="#quem-somos" class="text-decoration-none" style="color: black;">Sobre</a></li>
+          <li><a href="#nossos-projetos" class=" text-decoration-none" style="color: black;">Projetos</a></li>
           <li><a href="#doacoes" class=" text-decoration-none" style="color: black;">Doações</a></li>
-          <li><a href="#contato" class=" text-decoration-none" style="color: black;">Contato</a></li>
+          <li><a href="https://wa.me/5581983983990" target="_blank" rel="noopener noreferrer" class=" text-decoration-none" style="color: black;">Contato</a></li>
         </ul>
       </div>
 
