@@ -183,20 +183,51 @@ Apesar da alta demanda, o acesso ao tratamento psicológico ainda é privilégio
   <section class="impacto-mosaico" id="impacto">
   <div class="container-fluid">
     <div class="row g-0">
+      <!-- UNIDADE RECIFE COM CARROSSEL -->
       <div class="col-6 col-md-3">
-        <div class="card-mosaico" style="background-image: url('imagens/Capturar.PNG');">
+        <div id="carouselRecife" class="carousel slide card-mosaico" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card-mosaico" style="background-image: url('imagens/recife1.jpeg');"></div>
+            </div>
+            <div class="carousel-item">
+              <div class="card-mosaico" style="background-image: url('imagens/foto2_recife.jpg');"></div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselRecife" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselRecife" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
           <div class="titulo-card">Unidade Recife - Casa Amarela</div>
         </div>
       </div>
 
+      <!-- UNIDADE CARPINA COM CARROSSEL -->
       <div class="col-6 col-md-3">
-        <div class="card-mosaico" style="background-image: url('imagens/2560x1600-wine-solid-color-background.jpg.crdownload');">
+        <div id="carouselCarpina" class="carousel slide card-mosaico" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card-mosaico" style="background-image: url('imagens/capina1.jpeg');"></div>
+            </div>
+            <div class="carousel-item">
+              <div class="card-mosaico" style="background-image: url('imagens/foto2_carpina.jpg');"></div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselCarpina" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselCarpina" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
           <div class="titulo-card">Unidade Carpina - Santo Antônio</div>
         </div>
       </div>
 
+      <!-- OUTROS CARDS IGUAIS AO ORIGINAL -->
       <div class="col-6 col-md-3">
-        <div class="card-mosaico" style="background-image: url('imagens/Capturar.PNG');">
+        <div class="card-mosaico" style="background-image: url('imagens/espaçoscomarte.jpeg');">
           <div class="titulo-card">Espaços com arte e acolhimento</div>
         </div>
       </div>
@@ -407,6 +438,9 @@ Apesar da alta demanda, o acesso ao tratamento psicológico ainda é privilégio
     observer.observe(document.querySelector('.dobra4'));
   });
 </script>
+<!-- Adicione isso no final do <body> se ainda não estiver usando o Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 
 </body>
 </html>
