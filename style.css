@@ -485,3 +485,13 @@ body, html {
   
 }
   
+
+
+.imgfoter {
+  margin-bottom: 10px; /* ou ajuste como 5px, 15px, etc. */
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
