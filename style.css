@@ -189,7 +189,7 @@ body, html {
 .hero-subtitle {
   font-size: 1.2rem;
   margin: 20px 0;
-  color: #ffffff;
+  color: #000000;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -235,7 +235,7 @@ body, html {
   padding-top: 120px;
     text-align: center;
   position: relative;
-  background-image: url('imagens/Capturar44.PNG'); /* Substitua pelo caminho correto */
+  background-image: url('imagens/imagemreconfortante.jpeg'); /* Substitua pelo caminho correto */
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -246,7 +246,7 @@ body, html {
 .hero-title {
   font-size: 3rem;
   font-weight: bold;
-  color: #6F1133;
+  color: #ffffff;
   font-family: 'Poppins', sans-serif;
 }
 .hero-subtitle {
@@ -254,6 +254,11 @@ body, html {
   margin: 20px 0;
   color: #000000;
   font-family: 'Poppins', sans-serif;
+}
+#title2 {
+  font-size: 2rem;
+  text-align: center;
+  color: #6F1133;
 }
 }
 
