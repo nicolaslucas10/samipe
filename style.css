@@ -189,7 +189,7 @@ body, html {
 .hero-subtitle {
   font-size: 1.2rem;
   margin: 20px 0;
-  color: #000000;
+  color: #ffffff;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -223,6 +223,9 @@ body, html {
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
+}
+.ong{
+  color: #ffffff;
 }
 
 /* Responsivo */
@@ -260,6 +263,7 @@ body, html {
   text-align: center;
   color: #6F1133;
 }
+
 }
 
 
@@ -394,7 +398,7 @@ body, html {
 
 .dobra4 {
       padding: 60px 20px;
-      background-color: #f7f7fc;
+      background-color: #ffffff;
     }
 
     .dobra4 h2 {
